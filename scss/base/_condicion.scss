@@ -1,0 +1,25 @@
+@mixin condicion($colorif) {
+    color: $colorif;
+
+    @if $colorif == black {
+        font-family: Arial, Helvetica, sans-serif;
+    } @else {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+}
+
+h1 {
+    @include condicion(black);
+}
+
+h2 {
+    @include condicion(darkgray);
+}
+
+p {
+    @include condicion(black);
+}
+

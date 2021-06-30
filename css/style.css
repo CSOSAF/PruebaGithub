@@ -1,0 +1,151 @@
+/* HEADER */
+header {
+  margin-bottom: 150px;
+}
+
+/* SERVICIOS */
+.serviciosNc {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviciosNc img {
+  width: 500px;
+  height: 260px;
+  transform: scale(0.95, 0.95);
+  /* TRANSFORM SCALE */
+}
+
+/* CONTACTO */
+.contacto {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.input {
+  margin-top: 20px;
+}
+
+.redes {
+  margin-top: 25px;
+}
+.redes ul {
+  list-style: none;
+}
+.redes ul img {
+  width: 30px;
+  height: 30px;
+}
+
+/* FOOTER*/
+.mi-footer {
+  background-image: linear-gradient(to left, #3d3b3b, #b8b8b5);
+  /* GRADIENT */
+  height: 150px;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: darkgray;
+}
+
+h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LOGO */
+.logo {
+  height: 120px;
+  width: 220px;
+}
+
+/* SECTION */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.titulo-principal {
+  padding: 100px 0 !important;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* CLIENTES */
+.clientesNc {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  /* grid 3 columnas 2 filas*/
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img1 img2 img3" "img4 img5 img6";
+  row-gap: 15px;
+  /* espacio entre filas */
+  column-gap: 80px;
+  /* espacio entre columnas */
+}
+
+.img-coca {
+  grid-area: img1;
+}
+
+.img-loreal {
+  grid-area: img2;
+}
+
+.img-pfizer {
+  grid-area: img3;
+}
+
+.img-dhl {
+  grid-area: img4;
+}
+
+.img-ford {
+  grid-area: img5;
+}
+
+.img-itau {
+  grid-area: img6;
+}
+
+.clientesNc img {
+  width: 360px;
+  height: 260px;
+  transform: rotate(5deg);
+  /* TRANSFORM ROTATE*/
+}
+
+/*# sourceMappingURL=style.css.map */
